@@ -1,0 +1,9 @@
+{
+  "name": "react-open-weather-icons",
+  "version": "1.0.0",
+  "description": "Displays icons based on the weather icon from OpenWeatherMap",
+  "main": "index.js",
+  "repository": "https://github.com/alexander-alegre/react-weather-icons.git",
+  "author": "Alexander Alegre",
+  "license": "MIT"
+}
