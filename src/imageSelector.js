@@ -21,7 +21,7 @@ import wiMeteor from './icons/wi-meteor.svg';
 /**
  * Selects the name for an image
  * @param {string} name the name given to you by OpenWeatherMap
- * @return {string} returns the string for the image
+ * @returns {string} returns the string for the image
  */
 const imageSelector = (name) => {
   let image = wiMeteor;
