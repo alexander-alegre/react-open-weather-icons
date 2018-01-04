@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as testImgs from './icons';
+import wiRain from './icons/wi-rain.svg';
 
 class WeatherIcon extends React.Component {
   constructor(props) {
@@ -9,9 +9,8 @@ class WeatherIcon extends React.Component {
   }
   render () {
     const {name} = this.props;
-    console.log(testImgs);
     return (
-      <span>{name}</span>
+      <span>{name} {wiRain}</span>
     );
   }
 }
