@@ -24,7 +24,7 @@ import wiMeteor from './icons/wi-meteor.svg';
  * @return {string} returns the string for the image
  */
 const imageSelector = (name) => {
-  let image = '';
+  let image = wiMeteor;
   switch (name) {
     case '01d':
       return image = wiDaySunny;
