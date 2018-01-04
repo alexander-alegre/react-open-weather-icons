@@ -32,3 +32,11 @@
 `import WeatherIcon from 'react-open-weather-icon'`
 
 `<WeatherIcon name="01d" className="my-awesome-icon"`
+
+
+## Features
+
+- [x] Custom CSS sizing
+- [x] Weather Icons
+- [ ] Custom color
+- [ ] Animations
