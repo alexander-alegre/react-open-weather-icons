@@ -1,4 +1,4 @@
-# React Weather Icons
+# [React Weather Icons](https://www.npmjs.com/package/react-open-weather-icons)
 
 ### Pass in the icon name given by [OpenWeatherMap](https://openweathermap.org/)
 
@@ -31,7 +31,7 @@
 
 `import WeatherIcon from 'react-open-weather-icon'`
 
-`<WeatherIcon name="01d" className="my-awesome-icon"`
+`<WeatherIcon name="01d" className="my-awesome-icon" />`
 
 
 ## Features
