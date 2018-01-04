@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import imageSelector from './imageSelector';
 
 class WeatherIcon extends React.Component {
   constructor(props) {
@@ -7,6 +8,7 @@ class WeatherIcon extends React.Component {
   }
   render () {
     const {name} = this.props;
+    const imageName = imageSelector(name);
     return (
       <span>{name}</span>
     );
