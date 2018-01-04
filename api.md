@@ -1,10 +1,8 @@
-<a name="WeatherIcon"></a>
+<a name="module_WeatherIcon"></a>
 
-## WeatherIcon ⇐ <code>React</code>
+## WeatherIcon : <code>ReactClass</code>
 WeatherIcon Component
 
-**Kind**: global variable  
-**Extends**: <code>React</code>  
 
 | Param | Type | Description |
 | --- | --- | --- |
