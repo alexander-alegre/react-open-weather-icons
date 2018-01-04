@@ -1,0 +1,56 @@
+{
+  "clearSky": {
+    "day": "01d",
+    "night": "01n",
+    "imgDay": "wi-day-sunny",
+    "imgNight": "wi-night-clear"
+  },
+  "fewClouds": {
+    "day": "02d",
+    "night": "02d",
+    "imgDay": "wi-day-cloudy",
+    "imgNight": "wi-night-cloudy"
+  },
+  "scatteredClouds": {
+    "day": "03d",
+    "night": "03d",
+    "imgDay": "wi-day-cloudy-high",
+    "imgNight": "wi-night-cloudy-high"
+  },
+  "brokenClouds": {
+    "day": "04d",
+    "night": "04d",
+    "imgDay": "wi-day-overcast",
+    "imgNight": "wi-night-alt-partly-cloudy"
+  },
+  "showerRain": {
+    "day": "09d",
+    "night": "09d",
+    "imgDay": "wi-day-showers",
+    "imgNight": "wi-night-showers"
+  },
+  "rain": {
+    "day": "10d",
+    "night": "10d",
+    "imgDay": "wi-day-rain",
+    "imgNight": "wi-night-rain"
+  },
+  "thunderstorm": {
+    "day": "11d",
+    "night": "11d",
+    "imgDay": "wi-day-thunderstorm",
+    "imgNight": "wi-night-thunderstorm"
+  },
+  "snow": {
+    "day": "13d",
+    "night": "13d",
+    "imgDay": "wi-day-snow",
+    "imgNight": "wi-night-snow"
+  },
+  "mist": {
+    "day": "50d",
+    "night": "50d",
+    "imgDay": "wi-day-rain-mix",
+    "imgNight": "wi-night-rain-mix"
+  },
+}
