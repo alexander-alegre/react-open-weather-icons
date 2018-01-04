@@ -1,50 +1,70 @@
-
+import wiDaySunny from './icons/wi-day-sunny.svg';
+import wiNightClear from './icons/wi-night-clear.svg';
+import wiDayCloudy from './icons/wi-day-cloudy.svg';
+import wiNightCloudy from './icons/wi-night-cloudy.svg';
+import wiDayCloudyHigh from './icons/wi-day-cloudy-high.svg';
+import wiNightCloudyHigh from './icons/wi-night-cloudy-high.svg';
+import wiDaySunnyOvercast from './icons/wi-day-sunny-overcast.svg';
+import wiNightPartlyCloudy from './icons/wi-night-alt-partly-cloudy.svg';
+import wiDayShowers from './icons/wi-day-showers.svg';
+import wiNightSHowers from './icons/wi-night-showers.svg';
+import wiDayRain from './icons/wi-day-rain.svg';
+import wiNightRain from './icons/wi-night-rain.svg';
+import wiDayThunderstorm from './icons/wi-day-thunderstorm.svg';
+import wiNightThunderstorm from './icons/wi-night-thunderstorm.svg';
+import wiDaySnow from './icons/wi-day-snow.svg';
+import wiNightSnow from './icons/wi-night-snow.svg';
+import wiDayRainMix from './icons/wi-day-rain-mix.svg';
+import wiNightRainMix from './icons/wi-night-rain-mix.svg';
+import wiMeteor from './icons/wi-meteor.svg';
 
 /**
  * Selects the name for an image
  * @param {string} name the name given to you by OpenWeatherMap
  * @return {string} returns the string for the image
  */
-export default imageSelector(name) {
+const imageSelector = (name) => {
   let image = '';
   switch (name) {
     case '01d':
-      return image = 'wi-day-sunny';
+      return image = wiDaySunny;
     case '01n':
-      return image = 'wi-night-clear';
+      return image = wiNightClear;
     case '02d':
-      return image = 'wi-day-cloudy';
+      return image = wiDayCloudy;
     case '02n':
-      return image = 'wi-night-cloudy';
+      return image = wiNightCloudy;
     case '03d':
-      return image = 'wi-day-cloudy-high';
+      return image = wiDayCloudyHigh;
     case '03n':
-      return image = 'wi-night-cloudy-high';
+      return image = wiNightCloudyHigh;
     case '04d':
-      return image = 'wi-day-overcast';
+      return image = wiDaySunnyOvercast;
     case '04n':
-      return image = 'wi-night-alt-partly-cloudy';
+      return image = wiNightPartlyCloudy;
     case '09d':
-      return image = 'wi-day-showers';
+      return image = wiDayShowers;
     case '09n':
-      return image = 'wi-night-showers';
+      return image = wiNightSHowers;
     case '10d':
-      return image = 'wi-day-rain';
+      return image = wiDayRain;
     case '10n':
-      return image = 'wi-night-rain';
+      return image = wiNightRain;
     case '11d':
-      return image = 'wi-day-thunderstorm';
+      return image = wiDayThunderstorm;
     case '11n':
-      return image = 'wi-night-thunderstorm';
+      return image = wiNightThunderstorm;
     case '13d':
-      return image = 'wi-day-snow';
+      return image = wiDaySnow;
     case '13n':
-      return image = 'wi-night-snow';
+      return image = wiNightSnow;
     case '50d':
-      return image = 'wi-day-rain-mix';
+      return image = wiDayRainMix;
     case '50n':
-      return image = 'wi-night-rain-mix';
+      return image = wiNightRainMix;
     default:
-      image = 'wi-meteor';
-  };
-}
+      image = wiMeteor;
+  }
+};
+
+export default imageSelector;

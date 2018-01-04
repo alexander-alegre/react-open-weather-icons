@@ -7,16 +7,17 @@ class WeatherIcon extends React.Component {
     super(props);
   }
   render () {
-    const {name} = this.props;
+    const { name, className } = this.props;
     const imageName = imageSelector(name);
     return (
-      <span>{name}</span>
+      <img src={imageName} className={className} />
     );
   }
 }
 
 WeatherIcon.propTypes = {
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
+  className: PropTypes.string
 };
 
 export default WeatherIcon;
