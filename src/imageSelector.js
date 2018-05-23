@@ -7,7 +7,7 @@ import wiNightCloudyHigh from './icons/wi-night-cloudy-high.svg';
 import wiDaySunnyOvercast from './icons/wi-day-sunny-overcast.svg';
 import wiNightPartlyCloudy from './icons/wi-night-alt-partly-cloudy.svg';
 import wiDayShowers from './icons/wi-day-showers.svg';
-import wiNightSHowers from './icons/wi-night-showers.svg';
+import wiNightShowers from './icons/wi-night-showers.svg';
 import wiDayRain from './icons/wi-day-rain.svg';
 import wiNightRain from './icons/wi-night-rain.svg';
 import wiDayThunderstorm from './icons/wi-day-thunderstorm.svg';
@@ -45,7 +45,7 @@ const imageSelector = (name) => {
     case '09d':
       return image = wiDayShowers;
     case '09n':
-      return image = wiNightSHowers;
+      return image = wiNightShowers;
     case '10d':
       return image = wiDayRain;
     case '10n':
